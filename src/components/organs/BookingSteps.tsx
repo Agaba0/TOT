@@ -4,7 +4,7 @@ import { Text } from '../atoms/Text'
 import { BookingStepsTexts } from '../particles/DataLists'
 import { AirplaneInFlight, AirplaneTilt, Buildings, MapTrifold, Receipt, Wallet } from '@phosphor-icons/react'
 import { Card } from '../molecules/Card'
-import CardImage1 from "../../assets/bookingImage1.jpeg"
+import CardImage1 from "../../assets/foundationImages/ms.jpg"
 import CardImage2 from "../../assets/bookingImage2.jpeg"
 
 const BookingSteps = () => {
@@ -24,9 +24,9 @@ const BookingSteps = () => {
 
     return (
         <section className="w-full h-auto flex flex-col items-start justify-center relative lg:px-24 md:px-10 px-6 my-28 gap-5">
-            <Text as="p" className="font-light text-base text-color3/80 tracking-widest">
+            {/* <Text as="p" className="font-light text-base text-color3/80 tracking-widest">
                 {BookingStepsTexts.firstText}
-            </Text>
+            </Text> */}
             <main className='w-full grid md:grid-cols-2 lg:gap-6 gap-12 md:gap-5'>
                 {/* Text and Steps Container  */}
                 <div className='w-full flex flex-col gap-6 order-2 md:order-1'>

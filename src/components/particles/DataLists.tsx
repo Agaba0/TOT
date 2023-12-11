@@ -1,19 +1,19 @@
 export const NavLinks = [
     {
-        name: "Destination",
-        url: "/"
+        name: "Home",
+        url: "home"
     },
     {
-        name: "Hotels",
-        url: "/"
+        name: "About",
+        url: "about"
     },
     {
-        name: "Flights",
-        url: "/"
+        name: "Lorem",
+        url: "#"
     },
     {
-        name: "Bookings",
-        url: "/"
+        name: "Lorem",
+        url: "#"
     }
 
 ];
@@ -21,51 +21,52 @@ export const NavLinks = [
 export const NavButtons = [
     {
         name: "Login",
-        url: "/"
+        url: "/signin"
     },
     {
         name: "Signup",
-        url: "/"
+        url: "/signup"
     }
 
 ];
 
 
 export const HeroTexts = {
-    firstText: "BEST DESITNATIONS AROUND THE WORLD",
-    secondText: "Travel, enjoy and live a new and full life.",
+    firstText: " Lorem Lorem Lorem Lorem Lorem Lorem",
+    secondText: " Lorem Lorem Lorem Lorem",
     thirdText: "Built Wicket longer admire do barton vantity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.",
     firstButton: "Find out more",
-    secondButton: 'Play Demo'
+    //change text
+    secondButton: 'play video'
 }
 
 
 export const ServiceTexts = {
-    firstText: "CATEGORY",
-    secondText: "We Offer Best Services",
+    firstText: "LOREM",
+    secondText: "Lorem lorem lorem",
     cards: [
         {
-            firstText: "Calculated Weather",
-            secondText: "Built Wicket longer admire do barton vantity itself do in it."
+            firstText: " Lorem Lorem ",
+            secondText: " Lorem Lorem  Lorem Lorem  Lorem Lorem ."
         },
         {
-            firstText: "Best Flight",
-            secondText: "engrossed listening. Park gate sell they west hard for the."
+            firstText: " Lorem Lorem ",
+            secondText: " Lorem Lorem  Lorem Lorem  Lorem Lorem ."
         },
         {
-            firstText: "Local Events",
-            secondText: "barton vantity itself do in it.Preferred to men it engrossed listening."
+            firstText: " Lorem Lorem ",
+            secondText: " Lorem Lorem  Lorem Lorem  Lorem Lorem ."
         },
         {
-            firstText: "Customizition",
-            secondText: "We deliver outsourced aviation services for military customers."
+            firstText: " Lorem Lorem ",
+            secondText: " Lorem Lorem  Lorem Lorem  Lorem Lorem ."
         }
     ]
 }
 
 export const TopDestinationTexts = {
     firstText: "Top selling",
-    secondText: "Top Destinations",
+    secondText: "Trainings",
     cards: [
         {
             country: "Rome, Italy",
@@ -102,7 +103,7 @@ export const TopDestinationTexts = {
 
 export const BookingStepsTexts = {
     firstText: "Easy and Fast",
-    secondText: "Book your next trip in 3 easy steps",
+    secondText: "Easy ways to get unboarded",
     listOfSteps: [
         {
             text: "Choose Destination lorem ipsum dolor sit amet, consectetur adipiscing elit.Urna, tortor tempus."
@@ -162,32 +163,12 @@ export const NewsletterTexts = {
 }
 
 export const FooterTexts = {
-    underLogoText: "Book your trip in minutes, get full control for much longer.",
+    // underLogoText: "Book your trip in minutes, get full control for much longer.",
     quickLinks: {
         caption: "Quick Links",
         links: [
             {
                 name: "Destination",
-                url: "/"
-            },
-            {
-                name: "Hotels",
-                url: "/"
-            },
-            {
-                name: "Flights",
-                url: "/"
-            },
-            {
-                name: "Bookings",
-                url: "/"
-            },
-            {
-                name: "Login",
-                url: "/"
-            },
-            {
-                name: "Signup",
                 url: "/"
             }
         ]
@@ -197,14 +178,6 @@ export const FooterTexts = {
         links: [
             {
                 name: "FAQs",
-                url: "/"
-            },
-            {
-                name: "Help",
-                url: "/"
-            },
-            {
-                name: "Policies",
                 url: "/"
             },
             {
@@ -218,14 +191,6 @@ export const FooterTexts = {
         links: [
             {
                 name: "Career",
-                url: "/"
-            },
-            {
-                name: "Airlines",
-                url: "/"
-            },
-            {
-                name: "Airline Fees",
                 url: "/"
             },
             {

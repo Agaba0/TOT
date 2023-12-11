@@ -9,6 +9,7 @@ import ProfileImg1 from "../../assets/profile1.jpeg"
 import ProfileImg2 from "../../assets/profile2.jpeg"
 import ProfileImg3 from "../../assets/profile3.jpeg"
 import ProfileImg4 from "../../assets/profile4.jpeg"
+// import video from '../../assets/foundationImages/'
 
 const Testimonials = () => {
     const sliderRef = useRef<Slider | null>();
@@ -58,14 +59,25 @@ const Testimonials = () => {
                 {/* Text and Steps Container  */}
                 <div className='w-full flex flex-col gap-6'>
                     <Text as="p" className="font-light text-base text-color3/80 tracking-widest">
-                        {TestimonialTexts.firstText}
-                    </Text>
-                    <Text as="h1" className="lg:text-5xl md:text-3xl text-4xl text-color3 font-medium">
+                        {/* {TestimonialTexts.firstText} */}
                         {TestimonialTexts.secondText}
                     </Text>
+                    {/* <Text as="h1" className="lg:text-5xl md:text-3xl text-4xl text-color3 font-medium">
+                        {TestimonialTexts.secondText}
+                    </Text> */}
+                    {/* <video
+                        className=''
+                        src='../../assets/foundationImages/MOUSigning.mov'
+                        controls
+                    // autoPlay
+                    ></video> */}
+                    <video width="640" height="360" controls autoPlay>
+                        <source src={"../../assets/foundationImages/MOUSigning.mov"} type="video/mp4" />
+                    </video>
                 </div>
+
                 {/* Testimonial Slides Container  */}
-                <div className="w-full lg:h-[400px] flex justify-center gap-4 items-center">
+                <div className="w-full lg:h-[400px] flex justify-center gap-4 items-center ml-10">
                     <div className="lg:h-[250px] w-[90%]">
                         <Slider ref={(slider) => (sliderRef.current = slider)} {...settings}>
                             {
@@ -99,6 +111,14 @@ const Testimonials = () => {
                         </Button>
                     </div>
                 </div>
+                {/* <p className='text-[24.9878px] leading-[34.983px] tracking-normal text-justify sm:h-auto sm:mt-6 mt-4 lg:h-[420px]'>
+                    <video
+                        className='h-full'
+                        src={'/foundation/MOUSigning.mov'}
+                        controls
+                    // autoPlay
+                    ></video>
+                </p> */}
             </main>
         </section>
     )

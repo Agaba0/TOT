@@ -9,6 +9,7 @@ import Icon2 from "../../assets/icon2.png"
 import Icon3 from "../../assets/icon3.png"
 import Icon4 from "../../assets/icon4.png"
 import { Fade } from "react-awesome-reveal"
+import { Element } from "react-scroll"
 
 
 
@@ -30,7 +31,8 @@ const Services = () => {
         }
     }, []);
     return (
-        <section className="w-full h-auto flex flex-col items-center justify-center relative lg:px-24 md:px-20 px-6">
+        <Element name="about">
+        <section id="about" className="w-full h-auto flex flex-col items-center justify-center relative lg:px-24 md:px-20 px-6">
             <Image image={GroupOfPlus} alt="Vector" className="absolute top-0 right-4 lg:h-36 h-24" />
             <main className="w-full pt-32 flex flex-col gap-3 items-center justify-center">
                 <Text as="p" className="font-light text-base text-color3/80 tracking-widest">
@@ -44,7 +46,9 @@ const Services = () => {
                     {
                         ServiceTexts.cards.map((card, index) => (
 
-                            <Card cardClass="w-full bg-white flex flex-col items-center justify-center py-6 cursor-pointer transition duration-300 hover:shadow-xl px-5 rounded-xl cardPseudo after:bg-color1" imageWrapperClass="w-28 h-28 relative z-10 before:content-[''] before:absolute before:top-3 before:right-3 before:w-16 before:h-16 before:bg-color2/30 before:-z-10 before:rounded-tl-3xl before:rounded-br-3xl" cover="object-cover" imageAlt={card.firstText} imageSrc={renderServiceIcon(index)} textWrapperClass="w-full flex flex-col items-center gap-2" key={index} >
+                            <Card cardClass="w-full bg-white flex flex-col items-center justify-center py-6 cursor-pointer transition duration-300 hover:shadow-xl px-5 rounded-xl cardPseudo after:bg-[#68c8fc]"
+                                imageWrapperClass="w-28 h-28 relative z-10 before:content-[''] before:absolute before:top-3 before:right-3 before:w-16 before:h-16 before:bg-[#68c8fc] before:-z-10 before:rounded-tl-3xl before:rounded-br-3xl"
+                                cover="object-cover" imageAlt={card.firstText} imageSrc={renderServiceIcon(index)} textWrapperClass="w-full flex flex-col items-center gap-2" key={index} >
                                 <Text as="h4" className="text-base rounded font-medium text-color3">
                                     {card.firstText}
                                 </Text>
@@ -56,8 +60,8 @@ const Services = () => {
                     }
                 </div>
             </main>
-
-        </section>
+            </section>
+            </Element>
     )
 }
 

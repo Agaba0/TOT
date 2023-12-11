@@ -1,11 +1,11 @@
 import { Image } from "../atoms/Image"
-import logo from "../../assets/logo2.png"
+import logo from "../../assets/foundationImages/fIcon.png"
 import { Text } from "../atoms/Text"
 import { FooterTexts } from "../particles/DataLists"
 import { List } from "../atoms/List"
 import { Link } from "react-router-dom"
 import { FacebookLogo, InstagramLogo, TwitterLogo } from "@phosphor-icons/react"
-import app from "../../assets/appdownload.png"
+// import app from "../../assets/appdownload.png"
 
 
 const Footer = () => {
@@ -83,14 +83,14 @@ const Footer = () => {
                         </List>
                     </ul>
 
-                    <Text as="p" className="text-base font-light text-color4">
+                    {/* <Text as="p" className="text-base font-light text-color4">
                         Discover Our App
                     </Text>
-                    <Image image={app} className="w-28" alt="App Download" as="a" href="/" />
+                    <Image image={app} className="w-28" alt="App Download" as="a" href="/" /> */}
                 </div>
             </section>
             <Text className="text-center bg-color4 text-white text-xs py-6 font-light">
-                Copyright 2023. Jadoo.com. All rights reserved.
+                Copyright 2023. Wootlab All rights reserved.
             </Text>
         </footer>
     )

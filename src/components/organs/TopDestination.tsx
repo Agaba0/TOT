@@ -91,15 +91,15 @@ const TopDestination = () => {
 
     return (
         <section className="w-full h-auto flex flex-col items-center justify-center relative lg:px-24 md:px-20 px-6 my-20">
-            <Text as="p" className="font-light text-base text-color3/80 tracking-widest">
+            {/* <Text as="p" className="font-light text-base text-color3/80 tracking-widest">
                 {TopDestinationTexts.firstText}
-            </Text>
+            </Text> */}
             <Text as="h2" className="md:text-4xl text-2xl font-medium capitalize text-color3">
                 {TopDestinationTexts.secondText}
             </Text>
 
             {/* Controllers  */}
-            <div className="mt-12 w-full flex justify-end gap-5 items-center md:px-6 px-3">
+            <div className="mt-2 w-full flex justify-end gap-5 items-center md:px-6 px-3">
                 <Button onClick={previous} className="cursor-pointer outline-none border-none bg-color2/30 text-color3 hover:bg-color2 p-2 rounded-full" type="button">
                     <CaretLeft size={18} color="currentColor" weight="fill" />
                 </Button>
@@ -119,16 +119,16 @@ const TopDestination = () => {
                                         <Text as="h4" className="text-base font-medium text-color3">
                                             {card.country}
                                         </Text>
-                                        <Text as="small" className=" text-color3 font-light text-sm">
+                                        {/* <Text as="small" className=" text-color3 font-light text-sm">
                                             {card.price}
-                                        </Text>
+                                        </Text> */}
                                     </div>
-                                    <div className="w-full flex gap-4 items-center text-color3">
+                                    {/* <div className="w-full flex gap-4 items-center text-color3">
                                         <AirplaneTilt size={20} color="currentColor" weight="fill" />
                                         <Text as="p" className=" text-color3 font-light text-base">
                                             {card.duration}
                                         </Text>
-                                    </div>
+                                    </div> */}
                                 </Card>
                             </div>
                         ))
