@@ -2,7 +2,7 @@ import { useCallback } from 'react'
 import { List } from '../atoms/List'
 import { Text } from '../atoms/Text'
 import { BookingStepsTexts } from '../particles/DataLists'
-import { AirplaneInFlight, AirplaneTilt, Buildings, MapTrifold, Receipt, Wallet } from '@phosphor-icons/react'
+import { AirplaneInFlight, Buildings, MapTrifold, Receipt, Wallet } from '@phosphor-icons/react'
 import { Card } from '../molecules/Card'
 import CardImage1 from "../../assets/foundationImages/ms.jpg"
 import CardImage2 from "../../assets/bookingImage2.jpeg"
@@ -68,7 +68,7 @@ const BookingSteps = () => {
                             </Text>
 
                             <Text as='span' className='text-color3 font-light bg-color3/5 p-2.5 rounded-full'>
-                                <AirplaneTilt size={18} color="currentColor" weight="light" />
+                                {/* <AirplaneTilt size={18} color="currentColor" weight="light" /> */}
                             </Text>
                         </div>
                         <Text as='p' className='text-sm font-light text-color3 flex items-center gap-3'>

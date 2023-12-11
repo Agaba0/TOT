@@ -10,7 +10,7 @@ import City4 from "../../assets/gallery4.jpeg"
 import City5 from "../../assets/gallery5.jpeg"
 import City6 from "../../assets/gallery6.jpeg"
 import { Button } from "../atoms/Button";
-import { AirplaneTilt, CaretLeft, CaretRight } from "@phosphor-icons/react";
+import { CaretLeft, CaretRight } from "@phosphor-icons/react";
 
 
 const TopDestination = () => {

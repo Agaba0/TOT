@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="flex flex-col items-start gap-4">
                     <Image className="w-28" image={logo} alt="Logo" as="a" href="/" />
                     <Text className="text-sm text-color4" as="p">
-                        {FooterTexts.underLogoText}
+                       {/*  {FooterTexts.underLogoText} */}
                     </Text>
                 </div>
 
